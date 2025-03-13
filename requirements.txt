@@ -57,7 +57,7 @@ scipy==1.10.1
 sentence-transformers==3.4.1
 shellingham==1.5.4
 starlette==0.45.3
-TBB==0.2
+TBB==2022.0.0
 tokenizers==0.21.0
 transformers==4.49.0
 typer==0.15.1
