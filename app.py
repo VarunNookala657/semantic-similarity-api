@@ -25,6 +25,11 @@ def compute_similarity():
 
     return jsonify({"similarity score": similarity_score})
 
+@app.route("/")
+def home():
+    return "API is running!", 200
+
+
 if __name__ == '__main__':
     port = int(os.environ.get("PORT", 10000))  # Ensure Render detects open port
     app.run(host='0.0.0.0', port=port)  # Remove debug=True
