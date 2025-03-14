@@ -6,7 +6,7 @@ import time
 df = pd.read_csv("DataNeuron_Text_Similarity.csv")  # Replace with actual dataset path
 
 # API URL (Change this when deployed)
-API_URL = "http://127.0.0.1:5001/similarity"  # Local testing
+API_URL = "https://semantic-similarity-api-e4o0.onrender.com"  # Local testing
 
 results = []  # Store results
 
